@@ -1,0 +1,37 @@
+{
+  "attributes": {
+    "total": {
+      "description": "the number of authentication failures reported.",
+      "disable_correlation": true,
+      "misp-attribute": "counter",
+      "ui-priority": 1
+    },
+    "type": {
+      "description": "the type of authentication failure.",
+      "disable_correlation": true,
+      "misp-attribute": "text",
+      "sane_default": [
+        "ssh"
+      ],
+      "ui-priority": 1
+    },
+    "username": {
+      "description": "the type of authentication failure.",
+      "disable_correlation": true,
+      "misp-attribute": "text",
+      "sane_default": [
+        "ssh"
+      ],
+      "ui-priority": 1
+    }
+  },
+  "description": "Authentication Failure Report",
+  "meta-category": "network",
+  "name": "authentication-failure-report",
+  "required": [
+    "total",
+    "type"
+  ],
+  "uuid": "9b39afe0-9809-4fe0-8a0b-4cec2b140dd2",
+  "version": 1
+}

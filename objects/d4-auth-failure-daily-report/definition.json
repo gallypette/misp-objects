@@ -1,0 +1,24 @@
+{
+  "attributes": {
+    "total": {
+      "description": "the number of authentication failures reported.",
+      "disable_correlation": true,
+      "misp-attribute": "counter",
+      "ui-priority": 1
+    },
+    "total_ssh": {
+      "description": "the number of SSH authentication failures reported.",
+      "disable_correlation": true,
+      "misp-attribute": "counter",
+      "ui-priority": 1
+    }
+  },
+  "description": "D4 Authentication Failures Daily Report",
+  "meta-category": "network",
+  "name": "d4-auth-failure-daily-report",
+  "required": [
+    "total"
+  ],
+  "uuid": "23d7636a-d781-4ed1-90a7-bc4f85b0de89",
+  "version": 1
+}
